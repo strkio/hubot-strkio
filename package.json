@@ -1,0 +1,27 @@
+{
+  "name": "hubot-strkio",
+  "description": "Hubot strk.io integration",
+  "version": "0.1.0",
+  "author": "Stanley Shyiko <stanley.shyiko@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/strkio/hubot-strkio"
+  },
+  "main": "src/strkio.coffee",
+  "scripts": {
+    "lint": "./node_modules/coffeelint/bin/coffeelint --reporter coffeelint-stylish src/"
+  },
+  "devDependencies": {
+    "coffeelint": "^1.8.1",
+    "coffeelint-stylish": "^0.1.1"
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "strkio"
+  ]
+}
